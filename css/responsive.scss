@@ -1,0 +1,91 @@
+
+@media(max-width:768px){
+    .container{
+        height: auto;
+    }
+    .container-wrapper{
+        background-image:none;
+        height: 100vh;
+        header{          
+            padding:1% 10%; 
+            .logo{
+                text-align: center;
+                margin: 0 auto;
+                width: 50%;
+            }   
+        }
+        .content{    
+            margin: 10% auto;    
+            padding: 0 15px;  
+            .install-section{                
+                h3{
+                    font-size: 30px;        
+                }
+                p{
+                    font-size: 18px;                    
+                    margin: 0 auto;
+                }
+            }
+            .search-section{            
+                .search-div{                 
+                   .search-input{
+                        width: 75%;                  
+                        padding:5px 13px;                      
+                    }
+                    .search-btn{
+                        padding:5px 13px;
+                    }    
+                }
+            }
+            .search-list{
+                ul{
+                    text-align: center;
+                    li{
+                        font-size: 12px;
+                       a{
+                        padding: 0 9px;
+                       }
+                    }
+                }                
+            }
+        }
+    }
+    footer{
+        ul{
+            li{
+                display: block;
+            }
+        }
+    }
+    .modal-popup{
+        width: 100%;
+        max-width: 300px;
+        transform: translate(-50%,-50%);
+        top: 50%;
+        left: 50%;   
+        .popup-body {
+            .popup-content{
+                 p{
+                font-size: 20px;
+                 }
+            }   
+        }
+    }
+}  
+    @media(min-width:1024px){
+    .container-wrapper{
+        background-image:none;
+        .content{
+            padding:4% 0 9%;
+        }
+    }
+    }
+
+@media(min-width:1200px){
+    .container-wrapper{
+        background-image: url(../images/bg@3x.png);
+        height: 100vh;
+        background-size: 100%;
+    }
+    
+    }
